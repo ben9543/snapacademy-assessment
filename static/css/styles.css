@@ -2,20 +2,26 @@ body{
 
 }
 header{
-
+    position: fixed;
     top:0;
     width: 100%;
-    height: 10rem;
+    height: 6rem;
 }
 #navigator{
     height: 100%;
     width: 100%;
 }
-#navigator.ul{
+#navigator ul{
     display: flex;
     flex-direction: row;
     height: 100%;
     width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+}
+#navigator ul li {
+    margin-right: 2rem;
 }
 section{
     height: 100vh;

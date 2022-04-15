@@ -1,7 +1,15 @@
 const allSections = document.getElementsByTagName("section");
+const allNavItems = document.getElementsByClassName("nav_item");
 const nav = document.getElementById("navigator");
 const NAVGAP = 30;
 var lastNavPos = window.pageYOffset || document.documentElement.scrollTop;
+
+// Add click event to all nav items
+Array.from(allNavItems).forEach(item => {
+    item.addEventListener("click", function(){
+        nav.style.opacity="1";
+    })
+});
 
 // Navbar scorll event
 document.addEventListener("scroll", function(){
