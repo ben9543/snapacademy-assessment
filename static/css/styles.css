@@ -1,0 +1,33 @@
+body{
+
+}
+header{
+
+    top:0;
+    width: 100%;
+    height: 10rem;
+}
+#navigator{
+    height: 100%;
+    width: 100%;
+}
+#navigator.ul{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.card{
+
+}
+section.card.active{
+    transform: translateY(0);
+    opacity: 1;
+}

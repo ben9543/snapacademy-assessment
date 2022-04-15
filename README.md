@@ -28,3 +28,10 @@ https://www.theodinproject.com/courses/html-and-css#basic-html-page-structure
     - onScroll animations
     - onHover animations
     - Navigation menu and multiple pages
+
+
+# Application description
+
+1. My Favorite business in LA that does not have any website yet.
+
+    - 
