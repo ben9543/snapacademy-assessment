@@ -1,0 +1,42 @@
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 768px) {
+    #navigator-mobile{
+        display: flex;
+    }
+    #navigator-tablet{
+        display: none;
+    }
+    #navigator-desktop{
+        display: none;
+    }
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 768px) {
+    #navigator-mobile{
+        display: none;
+    }
+    #navigator-tablet{
+        display: flex;
+    }
+    #navigator-desktop{
+        display: none;
+    }
+}
+
+/* ----------- Desktop ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) {
+    #navigator-mobile{
+        display: none;
+    }
+    #navigator-tablet{
+        display: none;
+    }
+    #navigator-desktop{
+        display: flex;
+    }
+}

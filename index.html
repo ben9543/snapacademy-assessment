@@ -6,27 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="./static/css/responsive.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts ends -->
     <title>SnapAcademy Assessment</title>
 </head>
 <body>
     <header>
         <nav id="navigator">
-            <ul>
-                <li class="nav_item"><a href="#one">One</a></li>
-                <li class="nav_item"><a href="#two">Two</a></li>
-                <li class="nav_item"><a href="#three">Three</a></li>
-                <li class="nav_item"><a href="#four">Four</a></li>
-            </ul>
+            <div id="navigator-mobile">
+                mobile
+            </div>
+            <div id="navigator-tablet">
+                pad
+            </div>
+            <div id="navigator-desktop">
+                <a href="#" id="logo_container">
+                    <img src=""/>
+                </a>
+                <ul>
+                    <li class="nav_item"><a href="#one">One</a></li>
+                    <li class="nav_item"><a href="#two">Two</a></li>
+                    <li class="nav_item"><a href="#three">Three</a></li>
+                    <li class="nav_item"><a href="#four">Four</a></li>
+                </ul>
+            </div>
+            <div id="navigator-desktop"></div>
         </nav>
     </header>
     <main>
-        <section id="one"></section>
-        <section id="two"></section>
-        <section id="three"></section>
-        <section id="four"></section>
+        <section id="one">
+            <div class="main_image_container">
+                <div class="heading_container">
+                    <h1 class="heading">Title</h1>
+                </div>
+            </div>
+        </section>
+        <section id="two">
+            <div class="card">
+                <div class="gallery_grid">
+                    
+                </div>
+            </div>
+        </section>
+        <section id="three">
+            <div class="card">
+                Three
+            </div>
+        </section>
+        <section id="four">
+            <div class="card">
+                Four
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div></div>
+        <div class="contact">
+            <p>000-000-0000</p>
+            <p>example@gmail.com</p>
+        </div>
+        <div class="water_mark">
+            <p>All Rights Reserved</p>
+        </div>
     </footer>
     <script src="./static/js/script.js"></script>
     <script src="./static/js/scrolls.js"></script>
