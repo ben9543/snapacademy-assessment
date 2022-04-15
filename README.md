@@ -1,5 +1,7 @@
 # Overview
 
+- [Live Demo](https://ben9543.github.io/snapacademy-assessment/)
+
 - The task is to 
     1. develop a single-page website for your favorite small business in LA that does not already have its own website and 
     2. deploy it online. Please make sure to include a note on your website that it is an unofficial webpage for the small business.
