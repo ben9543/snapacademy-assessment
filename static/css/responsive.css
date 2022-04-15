@@ -10,6 +10,12 @@
     #navigator-desktop{
         display: none;
     }
+    section .gallery_grid_mobile{
+        display: grid;
+    }
+    section .gallery_grid_desktop{
+        display: none;
+    }
 }
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
@@ -23,6 +29,12 @@
     }
     #navigator-desktop{
         display: none;
+    }
+    section .gallery_grid_mobile{
+        display: none;
+    }
+    section .gallery_grid_desktop{
+        display: grid;
     }
 }
 
@@ -38,5 +50,11 @@
     }
     #navigator-desktop{
         display: flex;
+    }
+    section .gallery_grid_mobile{
+        display: none;
+    }
+    section .gallery_grid_desktop{
+        display: grid;
     }
 }
