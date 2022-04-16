@@ -2,9 +2,12 @@ var isOpen = false;
 const hamburgers = document.getElementsByClassName("hamburger");
 const menuList = document.getElementById("toggle-menu");
 const items = menuList.getElementsByTagName("li");
+const copyright = document.getElementById("copyright");
 function noScroll() {
     window.scrollTo(0, 0)
 }
+// Copy right year update
+copyright.innerText += new Date().getFullYear();
 Array.from(hamburgers).forEach((ham)=>{
     ham.addEventListener("click", ()=>{
         menuList.style.transform = "translateX(0)";

@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="./static/css/reset.css">
     <link rel="stylesheet" href="./static/css/styles.css">
     <link rel="stylesheet" href="./static/css/responsive.css">
+    <link rel="stylesheet" href="./static/css/maps.css">
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Fonts ends -->
+    
+    <!-- Google Maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyNrcGvvKGEm4e5rZplMTAXIg13OKdr5M&callback=initMap"></script>
     <title>SnapAcademy Assessment</title>
 </head>
 <body>
@@ -19,7 +25,7 @@
         <li class="nav_item"><a href="#one">Home</a></li>
         <li class="nav_item"><a href="#two">Gallery</a></li>
         <li class="nav_item"><a href="#three">About</a></li>
-        <li class="nav_item"><a href="#four">Four</a></li>
+        <li class="nav_item"><a href="#four">Location</a></li>
         <li class="nav_item exit">Exit</li>
     </ul>
     <header>
@@ -48,7 +54,7 @@
                     <li class="nav_item"><a href="#one">Home</a></li>
                     <li class="nav_item"><a href="#two">Gallery</a></li>
                     <li class="nav_item"><a href="#three">About</a></li>
-                    <li class="nav_item"><a href="#four">Four</a></li>
+                    <li class="nav_item"><a href="#four">Location</a></li>
                 </ul>
             </div>
         </nav>
@@ -139,26 +145,57 @@
                 <div class="line"></div>
             </div>
             <div class="card">
-                About
+                <div style="font-size: 1.3rem; font-weight: 200; display: flex; flex-direction: column; word-break: break-all; width: 50%;">
+                    <p>Tbaar offers bubble tea (hot & iced), fruit smoothies,
+                        and 100% fresh fruit or vegetable juices.</br></br>
+                        Tbaar is committed to provide only quality products and services.
+                    </p>
+                    </br>
+                    <p style="font-size: 1rem; font-weight: 400;">Open Hours: </br>
+                        Mon 10:00 AM - 9:00 PM
+                        </br>
+                        Tue 10:00 AM - 9:00 PM
+                        </br>
+                        Wed 10:00 AM - 9:00 PM
+                        </br>
+                        Thu 10:00 AM - 9:00 PM
+                        </br>
+                        Fri 10:00 AM - 9:00 PM
+                        </br>
+                        Sat 10:00 AM - 9:00 PM
+                        </br>
+                        Sun 11:00 AM - 7:00 PM
+                    </p>
+                </div>
             </div>
         </section>
         <section id="four">
-            <div class="card">
-                Four
+            <div class="divisor">
+                <div class="line"></div>
+                <p class="text">Location</p>
+                <div class="line"></div>
+            </div>
+            <div style="flex-direction: column;" class="card">
+                <div id="map"></div>
+                <p style="font-size: 1.3rem; font-weight: 200; margin-top: 2rem;">
+                239 Los Cerritos Ctr Ste F09D</br>
+                Cerritos, CA 90703</br>
+                </p>
             </div>
         </section>
     </main>
     <footer>
         <div></div>
         <div class="contact">
-            <p>000-000-0000</p>
+            <p>(562) 303-9300</p>
             <p>example@gmail.com</p>
         </div>
         <div class="water_mark">
-            <p>All Rights Reserved</p>
+            <p id="copyright">All Rights Reserved &copy;</p>
         </div>
     </footer>
     <script src="./static/js/script.js"></script>
     <script src="./static/js/scrolls.js"></script>
+    <script src="./static/js/maps.js"></script>
 </body>
 </html>
