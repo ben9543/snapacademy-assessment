@@ -15,22 +15,34 @@
     <title>SnapAcademy Assessment</title>
 </head>
 <body>
+    <ul id="toggle-menu">
+        <li class="nav_item"><a href="#one">Home</a></li>
+        <li class="nav_item"><a href="#two">Gallery</a></li>
+        <li class="nav_item"><a href="#three">About</a></li>
+        <li class="nav_item"><a href="#four">Four</a></li>
+        <li class="nav_item exit">Exit</li>
+    </ul>
     <header>
         <nav id="navigator">
             <div id="navigator-mobile">
                 mobile
             </div>
             <div id="navigator-tablet">
-                pad
+                <div id="hamburger">
+                    <img/>
+                </div>
+                <a href="#" id="logo_container">
+                    <img src="./static/img/logo.png"/>
+                </a>
             </div>
             <div id="navigator-desktop">
                 <a href="#" id="logo_container">
-                    <img src=""/>
+                    <img src="./static/img/logo.png"/>
                 </a>
                 <ul>
-                    <li class="nav_item"><a href="#one">One</a></li>
-                    <li class="nav_item"><a href="#two">Two</a></li>
-                    <li class="nav_item"><a href="#three">Three</a></li>
+                    <li class="nav_item"><a href="#one">Home</a></li>
+                    <li class="nav_item"><a href="#two">Gallery</a></li>
+                    <li class="nav_item"><a href="#three">About</a></li>
                     <li class="nav_item"><a href="#four">Four</a></li>
                 </ul>
             </div>
@@ -40,7 +52,11 @@
         <section id="one">
             <div class="main_image_container">
                 <div class="heading_container">
-                    <h1 class="heading">Title</h1>
+                    <div class="heading">
+                        <p style="font-size:2rem;">We Are</p>
+                        </br>
+                        <p>Boba Guys</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -76,8 +92,13 @@
             </div>
         </section>
         <section id="three">
+            <div class="divisor">
+                <div class="line"></div>
+                <p class="text">About</p>
+                <div class="line"></div>
+            </div>
             <div class="card">
-                Three
+                About
             </div>
         </section>
         <section id="four">

@@ -2,7 +2,7 @@
 /* Portrait and Landscape */
 @media only screen and (max-width: 768px) {
     #navigator-mobile{
-        display: flex;
+        display: grid;
     }
     #navigator-tablet{
         display: none;
@@ -25,7 +25,7 @@
         display: none;
     }
     #navigator-tablet{
-        display: flex;
+        display: grid;
     }
     #navigator-desktop{
         display: none;
