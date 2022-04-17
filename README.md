@@ -20,4 +20,4 @@
 
 # To Do
 
-- [ ] include a note on your website that it is an unofficial webpage for the small business.
+- [X] include a note on your website that it is an unofficial webpage for the small business.
