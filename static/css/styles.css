@@ -83,6 +83,34 @@ header{
     z-index: 5;
     background-color: rgba(0,0,0,0.4);
 }
+#banner{
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    font-weight: 300;
+    color: azure;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#banner #banner-button{
+    border-radius: 2rem;
+    height: 3rem;
+    width: 7rem;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: gray 1px solid;
+}
+#banner #banner-button:hover{
+    color: azure;
+    background-color: gray;
+}
 
 /* Mobile */
 #navigator-mobile{
@@ -219,6 +247,9 @@ section .main_image_container .heading_container .heading {
     color: whitesmoke;
     font-size: 5rem;
     font-weight: 100;
+}
+.heading .title{
+    color: #33AB5F;
 }
 section .gallery_grid_desktop{
     display: none;

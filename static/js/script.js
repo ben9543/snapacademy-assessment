@@ -3,6 +3,8 @@ const hamburgers = document.getElementsByClassName("hamburger");
 const menuList = document.getElementById("toggle-menu");
 const items = menuList.getElementsByTagName("li");
 const copyright = document.getElementById("copyright");
+const banner = document.getElementById("banner");
+const bannerButton = document.getElementById("banner-button");
 function noScroll() {
     window.scrollTo(0, 0)
 }
@@ -27,3 +29,7 @@ if(isOpen){
 } else {
     window.removeEventListener("scroll", noScroll);
 }
+
+bannerButton.addEventListener("click", ()=>{
+    banner.remove() = "none";
+});
