@@ -7,7 +7,7 @@
 
 - [X] A section for “About the Business”
 - [X] A section with images and descriptions of three (3) to four (4) items/services offered by the business
-- [ ] At least one HTML button linking to a different website
+- [X] At least one HTML button linking to a different website
 - [X] A CSS file for styling your website. Use this file to change the color palette and fonts for your website; they cannot be the same as the ones from a template if you choose to use one.
 - [X] Use GitHub Pages (or another tool) to publish your website to the world! - MAKE SURE you give us the correct URL/link to visit your website.
 
