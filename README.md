@@ -3,21 +3,27 @@
 - [Live Demo](https://ben9543.github.io/snapacademy-assessment/)
 - [Yelp](https://www.yelp.com/biz/tbaar-cerritos)
 
-- The task is to 
-    1. develop a single-page website for your favorite small business in LA that does not already have its own website and 
-    2. deploy it online. Please make sure to include a note on your website that it is an unofficial webpage for the small business.
+## Instructions
 
-- If you're experienced with web dev, here are some features we'd like to see. Definitely don't try to implement them all! Pick 1-3 you're excited about and implement those. Again, you are allowed to use a template but we’ll be looking for your contributions beyond the template. 
+- [] A section for “About the Business”
+- [X] A section with images and descriptions of three (3) to four (4) items/services offered by the business
+- [] At least one HTML button linking to a different website
+- [X] A CSS file for styling your website. Use this file to change the color palette and fonts for your website; they cannot be the same as the ones from a template if you choose to use one.
+- [X] Use GitHub Pages (or another tool) to publish your website to the world! - MAKE SURE you give us the correct URL/link to visit your website.
 
-    - [X] Use of JavaScript 
-    - [X] A photo gallery
-    - [X] More advanced styling such as use of flexbox/grid CSS, bootstrap, fonts/typography  background/gradient etc.
-    - [X] Use of git commits
-    - [X] A mobile responsive site
-    - [X] onScroll animations
-    - [X] onHover animations
-    - [X] Navigation menu and multiple pages
+## Optional Implementation
 
-# To Do
+### HTML features
+- [X] A photo gallery
+- [X] Navigation menu and multiple pages
+- [] An “overview” section linking to other sections with page anchors
 
-- [X] include a note on your website that it is an unofficial webpage for the small business.
+### CSS features
+- [X] onHover/onScroll animations
+- [X] A mobile responsive site
+- [X] More advanced use of flexbox/grid CSS
+
+### JavaScript features
+- [] Display if the business is currently open or closed
+- [X] Hide a part of the page until a button is clicked
+- [X] Add something with a JS library you haven’t used before
